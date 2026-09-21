@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050505"/>
+      <stop offset="100%" stop-color="#141414"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg2)"/>
+  
+  <!-- Subtle Grid -->
+  <g stroke="#262626" stroke-width="1" stroke-dasharray="4 4" opacity="0.35">
+    <line x1="0" y1="120" x2="800" y2="120"/>
+    <line x1="0" y1="250" x2="800" y2="250"/>
+    <line x1="0" y1="380" x2="800" y2="380"/>
+    <line x1="250" y1="0" x2="250" y2="500"/>
+    <line x1="550" y1="0" x2="550" y2="500"/>
+  </g>
+
+  <!-- Browser Frame -->
+  <rect x="60" y="50" width="680" height="400" rx="12" fill="#111111" stroke="#2e2e2e" stroke-width="1.5"/>
+  <rect x="60" y="50" width="680" height="44" rx="12" fill="#181818"/>
+  <rect x="60" y="82" width="680" height="12" fill="#181818"/>
+  
+  <!-- Browser Dots -->
+  <circle cx="85" cy="72" r="5" fill="#404040"/>
+  <circle cx="102" cy="72" r="5" fill="#404040"/>
+  <circle cx="119" cy="72" r="5" fill="#404040"/>
+  <rect x="150" y="63" width="280" height="18" rx="4" fill="#262626"/>
+  <text x="165" y="76" fill="#a3a3a3" font-family="-apple-system, sans-serif" font-size="11">exclusive.shop — Minimalist E-Commerce Platform</text>
+
+  <!-- Exclusive Header -->
+  <rect x="80" y="110" width="640" height="35" rx="6" fill="#171717" stroke="#262626" stroke-width="1"/>
+  <text x="100" y="132" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="15" font-weight="800" letter-spacing="1">EXCLUSIVE</text>
+  <text x="240" y="132" fill="#a3a3a3" font-family="-apple-system, sans-serif" font-size="11">Home    Contact    About    Sign Up</text>
+  <rect x="490" y="118" width="150" height="18" rx="4" fill="#262626"/>
+  <circle cx="680" cy="127" r="8" fill="#525252"/>
+
+  <!-- Flash Sales Section -->
+  <rect x="80" y="160" width="640" height="45" rx="6" fill="#1f1f1f"/>
+  <rect x="95" y="172" width="12" height="20" rx="2" fill="#ffffff"/>
+  <text x="118" y="187" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="14" font-weight="700">Today's Flash Sales</text>
+  <text x="490" y="187" fill="#a3a3a3" font-family="-apple-system, sans-serif" font-size="12">03d : 14h : 36m : 42s</text>
+
+  <!-- Product Showcase Cards -->
+  <g transform="translate(80, 220)">
+    <rect x="0" y="0" width="195" height="200" rx="8" fill="#171717" stroke="#2a2a2a" stroke-width="1"/>
+    <rect x="15" y="15" width="165" height="100" rx="6" fill="#242424"/>
+    <rect x="15" y="125" width="120" height="12" rx="2" fill="#737373"/>
+    <text x="15" y="158" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="15" font-weight="700">$120.00</text>
+    <rect x="15" y="172" width="165" height="28" rx="4" fill="#ffffff"/>
+    <text x="65" y="190" fill="#000000" font-family="-apple-system, sans-serif" font-size="11" font-weight="700">Add To Cart</text>
+
+    <rect x="222" y="0" width="195" height="200" rx="8" fill="#171717" stroke="#2a2a2a" stroke-width="1"/>
+    <rect x="237" y="15" width="165" height="100" rx="6" fill="#242424"/>
+    <rect x="237" y="125" width="120" height="12" rx="2" fill="#737373"/>
+    <text x="237" y="158" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="15" font-weight="700">$960.00</text>
+    <rect x="237" y="172" width="165" height="28" rx="4" fill="#ffffff"/>
+    <text x="287" y="190" fill="#000000" font-family="-apple-system, sans-serif" font-size="11" font-weight="700">Add To Cart</text>
+
+    <rect x="445" y="0" width="195" height="200" rx="8" fill="#171717" stroke="#2a2a2a" stroke-width="1"/>
+    <rect x="460" y="15" width="165" height="100" rx="6" fill="#242424"/>
+    <rect x="460" y="125" width="120" height="12" rx="2" fill="#737373"/>
+    <text x="460" y="158" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="15" font-weight="700">$370.00</text>
+    <rect x="460" y="172" width="165" height="28" rx="4" fill="#ffffff"/>
+    <text x="510" y="190" fill="#000000" font-family="-apple-system, sans-serif" font-size="11" font-weight="700">Add To Cart</text>
+  </g>
+</svg>

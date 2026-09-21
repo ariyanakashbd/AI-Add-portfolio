@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#09090b"/>
+      <stop offset="100%" stop-color="#18181b"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg3)"/>
+  
+  <!-- Browser Frame -->
+  <rect x="50" y="45" width="700" height="410" rx="12" fill="#0f0f12" stroke="#27272a" stroke-width="1.5"/>
+  <rect x="50" y="45" width="700" height="40" rx="12" fill="#18181b"/>
+  <rect x="50" y="75" width="700" height="10" fill="#18181b"/>
+  <circle cx="75" cy="65" r="5" fill="#3f3f46"/>
+  <circle cx="92" cy="65" r="5" fill="#3f3f46"/>
+  <circle cx="109" cy="65" r="5" fill="#3f3f46"/>
+  <text x="140" y="70" fill="#a1a1aa" font-family="-apple-system, sans-serif" font-size="11">devpulse.internal/metrics — Real-Time API &amp; Server Health</text>
+
+  <!-- Sidebar -->
+  <rect x="50" y="85" width="130" height="370" fill="#141417" stroke="#27272a" stroke-width="1"/>
+  <rect x="65" y="105" width="100" height="14" rx="3" fill="#ffffff"/>
+  <rect x="65" y="140" width="85" height="10" rx="2" fill="#3f3f46"/>
+  <rect x="65" y="165" width="95" height="10" rx="2" fill="#3f3f46"/>
+  <rect x="65" y="190" width="75" height="10" rx="2" fill="#3f3f46"/>
+  <rect x="65" y="215" width="90" height="10" rx="2" fill="#3f3f46"/>
+
+  <!-- Main Content Area -->
+  <!-- Stats Row -->
+  <g transform="translate(195, 100)">
+    <rect x="0" y="0" width="165" height="75" rx="8" fill="#18181b" stroke="#27272a" stroke-width="1"/>
+    <text x="15" y="25" fill="#a1a1aa" font-family="-apple-system, sans-serif" font-size="11">Total Requests</text>
+    <text x="15" y="55" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="20" font-weight="700">1.42M</text>
+
+    <rect x="185" y="0" width="165" height="75" rx="8" fill="#18181b" stroke="#27272a" stroke-width="1"/>
+    <text x="200" y="25" fill="#a1a1aa" font-family="-apple-system, sans-serif" font-size="11">Avg Latency</text>
+    <text x="200" y="55" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="20" font-weight="700">38 ms</text>
+
+    <rect x="370" y="0" width="165" height="75" rx="8" fill="#18181b" stroke="#27272a" stroke-width="1"/>
+    <text x="385" y="25" fill="#a1a1aa" font-family="-apple-system, sans-serif" font-size="11">Uptime</text>
+    <text x="385" y="55" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="20" font-weight="700">99.98%</text>
+  </g>
+
+  <!-- Big Graph Box -->
+  <g transform="translate(195, 190)">
+    <rect x="0" y="0" width="535" height="150" rx="8" fill="#18181b" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="28" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="13" font-weight="600">Endpoint Throughput &amp; Error Rate</text>
+    <!-- Graph Lines -->
+    <polyline points="20,120 70,105 130,115 190,80 250,90 310,60 370,75 430,45 490,55 520,35" fill="none" stroke="#ffffff" stroke-width="2.5"/>
+    <polyline points="20,135 70,130 130,125 190,128 250,120 310,122 370,115 430,118 490,112 520,110" fill="none" stroke="#52525b" stroke-width="1.5" stroke-dasharray="3 3"/>
+  </g>
+
+  <!-- Activity logs row -->
+  <g transform="translate(195, 355)">
+    <rect x="0" y="0" width="535" height="80" rx="8" fill="#18181b" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="25" fill="#a1a1aa" font-family="-apple-system, sans-serif" font-size="11">Latest API Invocations</text>
+    <text x="20" y="48" fill="#ffffff" font-family="-apple-system, monospace" font-size="11">POST /api/v1/checkout - 200 OK - 42ms</text>
+    <text x="20" y="68" fill="#71717a" font-family="-apple-system, monospace" font-size="11">GET  /api/v1/products - 200 OK - 18ms</text>
+  </g>
+</svg>

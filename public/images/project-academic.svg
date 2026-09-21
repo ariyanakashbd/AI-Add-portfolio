@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="bg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a0a"/>
+      <stop offset="100%" stop-color="#1c1c1c"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg4)"/>
+
+  <!-- Browser Frame -->
+  <rect x="50" y="45" width="700" height="410" rx="12" fill="#111111" stroke="#2d2d2d" stroke-width="1.5"/>
+  <rect x="50" y="45" width="700" height="40" rx="12" fill="#1a1a1a"/>
+  <rect x="50" y="75" width="700" height="10" fill="#1a1a1a"/>
+  <circle cx="75" cy="65" r="5" fill="#444444"/>
+  <circle cx="92" cy="65" r="5" fill="#444444"/>
+  <circle cx="109" cy="65" r="5" fill="#444444"/>
+  <text x="140" y="70" fill="#999999" font-family="-apple-system, sans-serif" font-size="11">edusphere.edu.bd — Academic Institutional Portal</text>
+
+  <!-- Institution Header -->
+  <rect x="75" y="100" width="650" height="45" rx="6" fill="#181818" stroke="#282828" stroke-width="1"/>
+  <text x="95" y="128" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="15" font-weight="700">EDUSPHERE MODEL COLLEGE</text>
+  <text x="360" y="127" fill="#888888" font-family="-apple-system, sans-serif" font-size="11">Academics   Admissions   Faculty   Notice Board   Portal</text>
+  <rect x="630" y="112" width="75" height="22" rx="4" fill="#ffffff"/>
+  <text x="645" y="127" fill="#000000" font-family="-apple-system, sans-serif" font-size="10" font-weight="700">Login</text>
+
+  <!-- Notice ticker -->
+  <rect x="75" y="155" width="650" height="28" rx="4" fill="#222222"/>
+  <rect x="80" y="159" width="60" height="20" rx="3" fill="#ffffff"/>
+  <text x="88" y="173" fill="#000000" font-family="-apple-system, sans-serif" font-size="9" font-weight="700">NOTICE</text>
+  <text x="150" y="173" fill="#dddddd" font-family="-apple-system, sans-serif" font-size="11">Final Term Examination Schedule 2024 published. Download official notification.</text>
+
+  <!-- Content 2-column layout -->
+  <g transform="translate(75, 195)">
+    <!-- Main announcement hero -->
+    <rect x="0" y="0" width="410" height="240" rx="8" fill="#181818" stroke="#282828" stroke-width="1"/>
+    <rect x="20" y="20" width="370" height="120" rx="6" fill="#252525"/>
+    <text x="20" y="165" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="16" font-weight="700">Admissions Open for Academic Year 2024-25</text>
+    <text x="20" y="188" fill="#888888" font-family="-apple-system, sans-serif" font-size="11">Complete online registration, merit list checking, and virtual campus tours.</text>
+    <rect x="20" y="202" width="110" height="24" rx="4" fill="#ffffff"/>
+    <text x="35" y="218" fill="#000000" font-family="-apple-system, sans-serif" font-size="10" font-weight="700">Apply Online</text>
+
+    <!-- Side fast links & notices -->
+    <rect x="425" y="0" width="225" height="240" rx="8" fill="#181818" stroke="#282828" stroke-width="1"/>
+    <text x="445" y="30" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="13" font-weight="700">Quick Services</text>
+    <rect x="445" y="48" width="185" height="34" rx="4" fill="#242424"/>
+    <text x="460" y="70" fill="#cccccc" font-family="-apple-system, sans-serif" font-size="11">Student Portal</text>
+    <rect x="445" y="92" width="185" height="34" rx="4" fill="#242424"/>
+    <text x="460" y="114" fill="#cccccc" font-family="-apple-system, sans-serif" font-size="11">Results &amp; Grades</text>
+    <rect x="445" y="136" width="185" height="34" rx="4" fill="#242424"/>
+    <text x="460" y="158" fill="#cccccc" font-family="-apple-system, sans-serif" font-size="11">Faculty Directory</text>
+    <rect x="445" y="180" width="185" height="34" rx="4" fill="#242424"/>
+    <text x="460" y="202" fill="#cccccc" font-family="-apple-system, sans-serif" font-size="11">Library Resources</text>
+  </g>
+</svg>
